@@ -2,8 +2,8 @@
 
 #############################################################################
 ###  Demonstrate how to use the For/Each loop
-###    and how to list files in a directory
-###    and how to search for a text snippet in each file
+###    AND how to list files in a directory
+###    AND how to search for a text snippet in each file
 #############################################################################
 
 DEBUG="OFF"
