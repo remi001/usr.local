@@ -4,12 +4,11 @@
 ##
 ##  One might logically expect features such as:
 ##   1. Accept a command line option specifying a directory name to watch
+##   2. Launch the watched directory in a new window
 ##
 ## DATE     WHO COMMENT
 ## ======== === =========================================================
 ## 20090522 RJP Incept
-
-##   2. Launch the watched directory in a new window
 
 echo -e "\n Watching `pwd`\n"
 
