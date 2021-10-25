@@ -1,12 +1,17 @@
 #! /bin/sh
 
-## List current directory contents and container info, sleep, repeat
-##  Might logically be features such as:
-##    1.  Took a command line option specifying a directory name
-##    2.  Launch the directory in a new window
+##  watchDir.sh -List the current directory contents and container info, sleep, repeat
+##
+##  One might logically expect features such as:
+##   1. Accept a command line option specifying a directory name to watch
+##
+## DATE     WHO COMMENT
+## ======== === =========================================================
+## 20090522 RJP Incept
+
+##   2. Launch the watched directory in a new window
 
 echo -e "\n Watching `pwd`\n"
-
 
 if [ "${1}x" = "x" ]; then
   sleepTime=10
